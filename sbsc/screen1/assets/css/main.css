@@ -1,0 +1,569 @@
+.my-nav {
+    display: flex !important;
+}
+
+.img {
+    width: 100vw;
+    height: 100%;
+}
+
+.contact-us {
+
+    font-family: OpenSans;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.5px;
+    text-align: center;
+    padding: 2px;
+    color: #526173;
+}
+
+.main-section {
+    background: linear-gradient(89.81deg, #111111 0.05%, rgba(17, 17, 17, 0.65) 41.25%), url("../img/rectangle-3.png") no-repeat;
+    width: 100vw;
+    height: 100%;
+    color: white;
+    display: table;
+}
+
+.welcome {
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.9px;
+    color: #ffffff;
+}
+
+.name {
+    font-family: Georgia;
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.1px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.under-name {
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.text {
+    margin: auto !important;
+    text-align: center;
+    padding: auto;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.below-main {}
+
+.below-main {
+    margin: -70px auto 70px;
+    /* padding: 20px 100px; */
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+
+.con {
+    padding: 20px;
+}
+
+.bar-title {
+
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #9b9b9b;
+}
+
+.large-text {
+    width: 56px;
+    height: 58px;
+    font-family: BodoniSvtyTwoITCTT;
+    font-size: 48px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-align: justify;
+    color: #000000;
+}
+
+.smaller-text {
+    width: 45px;
+    height: 19px;
+
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #000000;
+}
+
+.promo {
+    width: 170px;
+    height: 18px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: justify;
+
+}
+
+.blue-background {
+    background-color: #053b58;
+    margin: 0;
+    padding: 0;
+}
+
+.my-button {
+    background-color: #ff7200;
+    font-family: SourceSansPro;
+    font-size: 10px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    text-align: justify;
+    color: #ffffff;
+    padding: 10px;
+}
+
+.blue-content {
+    margin: 20px auto;
+    text-align: center
+}
+
+
+.about-title {
+
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.9px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.title-text {
+    font-family: Georgia;
+    font-size: 52px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 3.1px;
+    text-align: center;
+    color: #000000;
+}
+
+.about-text {
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2;
+    letter-spacing: 0.8px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.body-img {
+    margin: auto;
+    text-align: center;
+}
+
+.underline {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    margin-top: 20px;
+    text-decoration: underline;
+    letter-spacing: 4.9px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.image-background {
+    background: url("../img/rectangle-11.png") no-repeat;
+    width: 100vw;
+    /* min-height: 100%; */
+    padding: 50px 0;
+    margin: -200px auto auto;
+}
+
+.discover {
+    margin: 200px auto;
+    background-color: white;
+    padding: 20px auto;
+}
+
+.discover-text {
+    margin: 50px auto;
+}
+
+.discover-title {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.9px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.under-discover-title {
+
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #000000;
+}
+
+.inline-image {
+    display: inline;
+}
+
+.img-inline {
+    display: inline;
+}
+
+.gal-title {
+
+    font-family: Georgia;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: justify;
+    color: #000000;
+}
+
+.gal-text {
+
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-align: justify;
+    margin: -5px auto;
+    color: #b5b5b5;
+}
+
+.price {
+    color: #000000;
+}
+
+.testimony-title {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.9px;
+    text-align: center;
+    color: #9b9b9b;
+}
+
+.under-testimony-title {
+
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #000000;
+}
+
+.testimony-content {
+
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    line-height: 1.46;
+    letter-spacing: 1.4px;
+    text-align: center;
+    color: #000000;
+}
+
+.name-testimony {
+    text-align: center;
+    padding: 20px;
+    font-family: SourceSansPro;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #000000;
+
+}
+
+.name-testimony p {
+    margin: 20px;
+}
+
+.testimony {
+    background-color: white;
+    padding: 50px;
+}
+
+.blog {
+    margin: 100px auto;
+}
+
+.blog-heading {
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.white {
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+}
+
+.link {
+
+    font-family: Georgia;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.5;
+    letter-spacing: 0.8px;
+    color: #000000;
+    text-decoration: underline;
+}
+
+.date {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    color: #9b9b9b;
+}
+
+.continue {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 0.8px;
+    text-align: justify;
+    margin-top: 5px;
+    color: #000000;
+}
+
+.map-container {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.map-text {
+    margin: auto;
+    padding: 50px auto;
+}
+
+.map-title {
+
+    margin-top: 100px;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 4.9px;
+    text-align: justify;
+    color: #9b9b9b;
+
+}
+
+.under-map-title {
+
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    color: #000000;
+}
+
+.state {
+
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    color: #000000;
+}
+
+.country {
+
+    font-family: Georgia;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 1.4px;
+    color: #d8d8d8;
+}
+
+.address {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 0.8px;
+    color: #9b9b9b;
+}
+
+.call {
+
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14;
+    letter-spacing: 0.8px;
+    color: #9b9b9b;
+}
+
+.number {
+
+    font-family: Georgia;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: 2.1px;
+    color: #000000;
+}
+
+.map-content {
+    margin: auto;
+}
+
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family: "Source Sans Pro"
+}
+
+.line {
+    border: 1px #9b9b9b solid;
+}
+
+.input-text {
+    border: none;
+    border-color: transparent;
+    background-color: black;
+    color: white;
+    border-bottom: 1px #9b9b9b solid;
+}
+
+.right {
+    float: right;
+}

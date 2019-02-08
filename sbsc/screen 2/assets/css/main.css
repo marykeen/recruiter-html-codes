@@ -1,0 +1,161 @@
+body {
+    background-color: #f5f5f5;
+    font-family: 'Open Sans';
+}
+
+.inline {
+    display: inline;
+}
+
+.header-nav {
+    background-color: white;
+    display: flex;
+    padding: 10px;
+    flex-direction: row-reverse;
+
+}
+
+header {
+    min-width: 100%;
+}
+
+
+
+
+.nav-link {
+
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #45526b;
+    padding: 20px;
+}
+
+.profile-text {
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #58594f;
+    margin: 15px auto;
+
+
+}
+
+.icon {
+    padding: 5px;
+}
+
+.my-card {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.name-text {
+    font-family: ""Open Sans"";
+    font-size: 14px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #58594f;
+    padding: 10px 20px;
+}
+
+.line {
+    border: 1px #f5f5f5 solid;
+    margin: 5px 0;
+    padding: 0;
+}
+
+ul {
+    margin: 20px auto;
+}
+
+.group {
+    display: flex;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f5f5f5;
+
+}
+
+.timeline-btn {
+    background-color: #6c63ff;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.ord-btn {
+    padding: 10px;
+}
+
+.outline-btn {
+    background-color: #fff;
+    color: #6c63ff;
+    border: 1px #6c63ff solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.title {
+
+    font-family: OpenSans;
+    font-size: 17px;
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #58594f;
+    font-family: 'Open Sans';
+}
+
+.description {
+
+    font-family: OpenSans;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #58594f;
+    font-family: 'Open Sans';
+}
+
+.time {
+
+    font-family: OpenSans;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9b9b9b;
+    font-family: 'Open Sans';
+}
+
+.white {
+    background-color: white;
+}
+
+.new-card {
+    border-bottom: 1px #f5f5f5 solid;
+    padding: 10px;
+}

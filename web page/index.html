@@ -1,0 +1,611 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+   <!-- Add icon library -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+  table, td, th {    
+    border: 1px solid #ddd;
+    text-align: left;
+      }
+
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    }
+
+  th, td {
+    padding: 15px;
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 800px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #fafafa;
+      height: 100%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    /* footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    } */
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+    .hell {
+  float: right;
+}
+
+hr { 
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+}
+
+.h12{
+  text-align: center;
+  font: bold 80px Sans-Serif;
+  padding: 40px 0;
+}
+
+.simple {
+  background: #91877b;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}
+
+.jumbotron {
+  margin-top: 15px;
+    margin-bottom: 0px;
+    height: 255px;
+    color: white;
+    text-shadow: black 0.3em 0.3em 0.3em;
+    background: transparent;
+    background-image: url(Images/homepage.png);
+    letter-spacing: 6px;
+    font-size: 0.9em;
+    text-align: center;
+    font: bold 80px Sans-Serif;
+    padding: 40px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+.glow {
+  color: #444;
+  text-shadow: 
+    1px 0px 1px #ccc, 0px 1px 1px #eee, 
+    2px 1px 1px #ccc, 1px 2px 1px #eee,
+    3px 2px 1px #ccc, 2px 3px 1px #eee,
+    4px 3px 1px #ccc, 3px 4px 1px #eee,
+    5px 4px 1px #ccc, 4px 5px 1px #eee,
+    6px 5px 1px #ccc, 5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+}
+
+.h32 {
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  font: italic bold 25px  'Open Sans';
+}
+
+.h42{
+  font-family:  'Open Sans';
+}
+
+ /* .background {
+  background: url("Images/homepage.jpg") repeat;
+   border: 0.5px solid black; 
+}  */
+
+div.transbox {
+  margin: 30px;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: white;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 15px;
+  height: 50px;
+  font-family: "Times New Roman", Times, serif;
+
+}
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50; /* Green */
+}
+
+.button2 {
+  background-color: #008CBA; 
+  color: white; 
+  border: 1px solid #008CBA;
+}
+
+.button3 {
+  background-color: white; 
+  color: orange; 
+  border: 1px solid #f44336;
+}
+
+.button4 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+}
+
+.button5 {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+}
+select {
+  width: 50%;
+  border: none;
+  border-radius: 4px;
+  background-color: #f1f1f1;
+}
+.down1{
+  margin-top: 5px;
+}
+  .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+.padd{
+  padding-left: 20px;
+  padding-right: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+ 
+ /*search box css start here*/
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(3rem + 2px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(3rem + 2px) !important;
+    border-radius:1px;
+}
+@media (min-width: 992px){
+    .search-sec{
+        position: relative;
+        top: -114px;
+        width: 72rem;
+        height: 9rem;
+        background-color: rgba(0, 0, 0, 0.6);
+        margin-left: 40rem;
+        margin-top: 1rem;
+        padding-top: 3rem;
+    }
+}
+
+@media (max-width: 992px){
+    .search-sec{
+        background: #1A4668;
+    }
+}
+.btn-outline-secondary{
+display: block;
+
+width: 10rem;
+height: 40px;
+border-color: #f16722;    
+color:#f16722;
+background-color: #fff
+    }
+.btn-II{
+display: block;
+
+width: 10rem;
+height: 40px;
+/* border-radius:2rem; */
+  background-color: #313366;
+  color: #fff;
+     }
+     .btn-primary{
+       background-color: #313366;
+     }
+    .navbar-nav {
+padding-top: 3rem;
+    }
+    .footer {    
+ /* position: fixed; */
+left: 0;
+bottom: 0; 
+width: 100%;
+color: white;
+text-align: center;
+background-color: #25316d;
+padding: 30px 60px;
+  }
+
+  </style>
+</head>
+<body>
+<!-- header -->
+<body style="height:100vh">
+    <nav class="navbar navbar-light bg-light">
+        <a class="navbar-brand mr-auto"><img src="Images/company_logo.svg" style="width:100px; height:70px;"></a> 
+        <div class="d-flex ">
+                <div class="row bar1">
+              <ul class="nav navbar-nav navbar-right">
+              <li><button type="button" class="btn btn-outline-secondary mx-1">Sign In</button></li>
+                <li><a href="#"><span class=""></span></a></li>
+            <li> <button type="button" class="btn btn-II mx-1">Sign Up</button></li>
+                <li><a href="#"><span class=""></span></a></li>
+                <li><a href="#"><span class=""></span></a></li>
+            </ul>
+</nav>
+<!-- header-->
+<section>
+    <div class="jumbotron jumbotron-fluid">
+  <div class="container">
+   <h2 class="h32">Vacancies in SBSC Nigeria</h2> 
+    <h4 class="h42">Sign up today to find Job opportunities near you</h4> 
+  </div>
+</div>
+</section>
+<section class="search-sec">
+    <div class="container">
+        <form action="#" method="post" novalidate="novalidate">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Job Functions</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <select class="form-control search-slt" id="exampleFormControlSelect1">
+                                <option>Specialization</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                                <option>Example one</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                            <button type="button" class="btn btn-II mx-1">Search</button>
+                        </div>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section> 
+
+   <!--/.body-->
+<div class="container-fluid">
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+ <div class="row">
+    <div class="col-sm-4">
+     <h5>Filters</h5>
+    </div>
+    <div class="col-sm-4">
+    
+    </div>
+    <div class="col-sm-4">
+        <h5>Clear all</h5>
+    </div>
+  </div>
+<hr>
+<span>
+  <div class="row">
+    <div class="col-sm-4">
+     <h5>Skills</h5>
+    </div>
+    <div class="col-sm-4">
+    </div>
+    <div class="col-sm-4">
+        <h5>Clear all</h5>
+    </div>
+  </div>
+  <form>
+  <div class="form-group">
+    <input type="skills" class="form-control" id="skills" aria-describedby="emailHelp" placeholder="Skills">
+  </div>
+</form>
+</span>
+ <div class="row">
+    <div class="col-sm-4">
+     <h5>Job type</h5>
+    </div>
+    <div class="col-sm-4">
+    
+    </div>
+    <div class="col-sm-4">
+        <h5>Clear</h5>
+    </div>
+  </div>
+      <ul class="nav nav-pills nav-stacked">
+       <form>
+                <div class="checkbox">
+                  <label><input type="checkbox"> Full time</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox"> Internship</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox"> Contract</label>
+                </div>
+                <span>
+                  <h4>Experience &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+                  <p>
+                    <div class="checkbox">
+                  <label><input type="checkbox"> Beginner</label>
+                </div>
+
+                <div class="checkbox">
+                  <label><input type="checkbox">Intermediate</label>
+                </div>
+                <div class="checkbox">
+                  <label><input type="checkbox">Expert</label>
+                </div>
+                  </p>
+                </span> 
+              </form>
+      </ul><br>
+    </div>
+
+    <div class="col-sm-9">
+      <div class="row">
+    <div class="col-sm-4">
+     <h5>Showing All</h5>
+    </div>
+    <div class="col-sm-4">
+    
+    </div>
+    <div class="col-sm-4">
+        <form class="form-inline" >
+  <div class="form-group">
+    <label for="inputPassword6">Sort by:</label>
+    <input type="password" id="inputPassword6" class="form-control mx-sm-3 down1" aria-describedby="passwordHelpInline" placeholder="Most recent">
+  </div>
+</form>
+        
+    </div>
+  </div>
+      <hr>
+          <div class="row">
+        <div class="col-sm-6 text-left">
+         <div class="card border-dark mb-3" style="width:500px">
+                  <div class="card-body">
+                    <h4 class="card-title">DevOps Automation of Mobile App Submission Process</h4>
+                    <p class="card-text">Posted On: Dec 13, 2018</p>
+                    <p class="card-text">Application Deadline: Jan, 15 2009</p>
+                    <p class="card-text">We are looking for a devops engineering that can easily apply devops for the mobile app (ios and android  -NATIVE) submission to....</p>
+                   
+<form class="form-inline">
+  <button type="submit" class="btn btn-primary mb-2">Apply Now</button>
+</form>
+</div>
+                    
+                  </div>
+        </div>
+        <div class="col-sm-6">
+         <div class="card border-dark mb-3" style="width:500px">
+                  <div class="card-body">
+                    <h4 class="card-title">DevOps Automation of Mobile App Submission Process</h4>
+                    <p class="card-text">Posted On: Dec 13, 2018</p>
+                    <p class="card-text">Application Deadline: Jan, 15 2009</p>
+                    <p class="card-text">We are looking for a devops engineering that can easily apply devops for the mobile app (ios and android  -NATIVE) submission to....</p>
+                   
+<form class="form-inline">
+  <button type="submit" class="btn btn-primary mb-2">Apply Now</button>
+  </form>
+</div>
+                    
+                  </div>
+          <br>
+        </div>
+       <div class="col-sm-6 text-left">
+         <div class="card border-dark mb-3" style="width:500px">
+                  <div class="card-body">
+                    <h4 class="card-title">DevOps Automation of Mobile App Submission Process</h4>
+                    <p class="card-text">Posted On: Dec 13, 2018</p>
+                    <p class="card-text">Application Deadline: Jan, 15 2009</p>
+                    <p class="card-text">We are looking for a devops engineering that can easily apply devops for the mobile app (ios and android  -NATIVE) submission to....</p>
+                   
+<form class="form-inline">
+  <button type="submit" class="btn btn-primary mb-2">Apply Now</button>
+</form>
+</div>
+                    
+ </div>
+        </div>
+        <div class="col-sm-6">
+         <div class="card border-dark mb-3" style="width:500px">
+                  <div class="card-body">
+                    <h4 class="card-title">DevOps Automation of Mobile App Submission Process</h4>
+                    <p class="card-text">Posted On: Dec 13, 2018</p>
+                    <p class="card-text">Application Deadline: Jan, 15 2009</p>
+                    <p class="card-text">We are looking for a devops engineering that can easily apply devops for the mobile app (ios and android  -NATIVE) submission to....</p>            
+<form class="form-inline">
+  
+  <button type="submit" class="btn btn-primary mb-2">Apply Now</button>
+  </form>
+</div>
+                    
+                  </div>
+            </div>
+          <br>
+        </div>
+
+        <div class="col-sm-6 text-left">
+         <div class="card border-dark mb-3" style="width:500px">
+                  <div class="card-body">
+                    <h4 class="card-title">DevOps Automation of Mobile App Submission Process</h4>
+                    <p class="card-text">Posted On: Dec 13, 2018</p>
+                    <p class="card-text">Application Deadline: Jan, 15 2009</p>
+                    <p class="card-text">We are looking for a devops engineering that can easily apply devops for the mobile app (ios and android  -NATIVE) submission to....</p>
+                   
+<form class="form-inline">
+  
+  <button type="submit" class="btn btn-primary mb-2">Apply Now</button>
+  </form>
+</div>
+                    
+                  </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="card border-dark mb-3" style="width:500px">
+                  <div class="card-body">
+                    <h4 class="card-title">DevOps Automation of Mobile App Submission Process</h4>
+                    <p class="card-text">Posted On: Dec 13, 2018</p>
+                    <p class="card-text">Application Deadline: Jan, 15 2009</p>
+                    <p class="card-text">We are looking for a devops engineering that can easily apply devops for the mobile app (ios and android  -NATIVE) submission to....</p>
+         <form class="form-inline">
+  
+  <button type="submit" class="btn btn-primary mb-2">Apply Now</button>
+  </form>
+</div>             
+                  </div>
+          <br>
+        </div>
+      </div>
+  </div>
+ 
+</div>
+</div>
+<!-- <footer class="container-fluid" style="background-color:#191970">
+   <div class="col-sm-6">
+     
+   </div>
+    <div class="col-lg-4">
+      <ul>
+       
+          <span style="font-size: 18px; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif";></span>
+                <i class="fab fa-facebook-f pr-4"></i>
+                <i class="fab fa-google-plus-g pr-4"></i>
+                <i class="fab fa-linkedin-in pr-4"></i>
+                <i class="fab fa-twitter"></i>
+            
+          </span>
+         
+        
+      </ul>
+    </div>
+
+</footer> -->
+<footer class="footer d-flex justify-content-between mx-0" style="height:90px;">
+    <div>               
+        <p class="footnote" style="color: #707070;  font-family: Roboto; font-size: 10px; margin-right: 10px;">Copyright © 2018. All rights reserved. <span style="color:#f16722;">Software Business Solutions Consulting.</span> </p> </a>   
+    </div>
+
+    <div class="d-flex justify-content-center" >
+            <i class="fab fa-facebook-f pr-4"></i>
+            <i class="fab fa-google-plus-g pr-4"></i>
+            <i class="fab fa-linkedin-in pr-4"></i>
+            <i class="fab fa-twitter"></i>
+        
+    </div>
+   
+    </footer>
+</body>
+</html>
